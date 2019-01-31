@@ -1,0 +1,35 @@
+#navegador{
+    padding:0;
+    /* position: fixed; */
+    float:left;
+}
+#navegador li{
+    display: list-item;
+    margin: 2rem 0;
+}
+#navegador li a{
+    font-size:16px;
+    background-color:black;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+}
+#navegador li a:hover {
+    background-color: white;
+    color: black;
+    border:1px solid black;
+    margin-top: -2;
+    padding: 15px;
+}  
+#trisquel{
+    background-image:url(../Images/trisquel.png);
+    width: 10rem;
+    height:10rem;
+    background-position: center;
+    background-size:cover;
+    /* position: absolute; */
+    top: 0;
+    right: 12px;
+    float:right;
+}  
+
